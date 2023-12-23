@@ -385,7 +385,7 @@ button {
 }
 
 /* Стили для списка продуктов в мобильном режиме */
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 884px) {
     .productList-container {
         grid-gap: 10px;
     }
@@ -397,5 +397,9 @@ button {
 
     .productList-panel > * {
         margin-bottom: 5px;
+    }
+
+    .modal-container {
+        width: 80%;
     }
 }
