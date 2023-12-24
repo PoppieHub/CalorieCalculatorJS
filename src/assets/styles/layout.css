@@ -1,6 +1,7 @@
 /* Сброс стилей */
 @import './normalize.css';
 
+/* Переменные */
 :root {
     --background-color: rgba(218, 221, 224, 0.76);
     --scrollbar-background: #fff;
@@ -201,11 +202,11 @@ button {
 /* Стили списка продуктов */
 .productList-container {
     width: 100%;
-    padding: 0 20px; /* Добавлен отступ слева и справа */
+    padding: 0 20px;
 
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    grid-gap: 10px; /* Отступ между элементами списка */
+    grid-gap: 10px;
     margin: 20px 0;
 }
 
@@ -221,7 +222,7 @@ button {
     }
 }
 
-/* Дополнительные стили для удаления продукта */
+/* Стили для удаления продукта */
 .product-card {
     position: relative;
     text-align: center;
